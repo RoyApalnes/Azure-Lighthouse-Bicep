@@ -1,0 +1,29 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspOfferName": {
+            "value": "Hub Name"
+        },
+        "mspOfferDescription": {
+            "value": "Managed Services"
+        },
+        "managedByTenantId": {
+            "value": "15ae15c5-ffd5-1be5-a1cb-cb15aa15bc15"
+        },
+        "authorizations": {
+            "value": [
+                {
+                    "principalId": "d15c15fc-b115-1515-bb15-f1eda1515f5d",
+                    "principalIdDisplayName": "DevOps Service Connection",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+                },
+                {
+                    "principalId": "d16c16fc-b116-1616-bb16-f1eda1616f6d",
+                    "principalIdDisplayName": "Owner",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+                }                
+            ]
+        }
+    }
+}
