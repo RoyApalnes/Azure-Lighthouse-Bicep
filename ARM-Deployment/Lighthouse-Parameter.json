@@ -3,23 +3,23 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "mspOfferName": {
-            "value": "Hub Name"
+            "value": "Resource"
         },
         "mspOfferDescription": {
             "value": "Managed Services"
         },
         "managedByTenantId": {
-            "value": "15ae15c5-ffd5-1be5-a1cb-cb15aa15bc15"
+            "value": "d4015793-6f03-4b58-a424-32250fa6f137"
         },
         "authorizations": {
             "value": [
                 {
-                    "principalId": "d15c15fc-b115-1515-bb15-f1eda1515f5d",
-                    "principalIdDisplayName": "DevOps Service Connection",
+                    "principalId": "ffa32520-6f87-41c2-9776-535b9f7fb38c",
+                    "principalIdDisplayName": "Lighthouse",
                     "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
                 },
                 {
-                    "principalId": "d16c16fc-b116-1616-bb16-f1eda1616f6d",
+                    "principalId": "24a46c70-eac2-4ca0-b632-fbe4c303792b",
                     "principalIdDisplayName": "Owner",
                     "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
                 }                
